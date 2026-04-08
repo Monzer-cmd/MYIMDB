@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+audio{
+  display: none;
+}
+
+header{
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+header>h1{
+  display: inline-block;
+  color: crimson;
+  font-family: 'saira stencil';
+}
+
+.buttons{
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+  background-color:lightcyan;
+  width:100px;
+  border-radius: 6px;
+}
+
+button:hover{
+  background-color: cyan;
+}
+
+button>a{
+  color: crimson;
+  font-weight: 600;
+}
+
+/* ----------------------------------- */
+
+main{
+    background: #333;
+    color: white;
+}
+h2{
+    font-size: 50px;
+}
+.contetnt{
+  display: block;
+
+}
+
+.movie{
+  display: flex;
+  align-items: center;
+}
+
+.movie>h3{
+    font-size: 40px;
+  text-indent: 5%;
+  width: 70%;
+}
+
+/* ----------------------------------- */
+
+
+footer{
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
